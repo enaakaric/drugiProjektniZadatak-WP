@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #ea2041;
+}
+
+section {
+    padding: 50px 0;
+    text-align: center;
+    background-size: cover;
+    color: black;
+}
+
+footer {
+    text-align: center;
+    color: black;
+}
+footer table {
+    margin: 0 auto; 
+}
+
+footer td {
+    text-align: center; 
+    vertical-align: top; 
+}
+
+footer h1, footer h2, footer h3, footer h4, footer p {
+    margin: 0;
+    padding: 5px 0; 
+}
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form input[type="tel"],
+#contact-form textarea {
+    padding: 10px;
+    border-radius: 5px;
+}
+#contact-form input[type="submit"] {
+    background-color: #ea2041;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+#kurseviid{
+    list-style-type: none;
+}
+.ime{
+    color: #ea2041;
+}
+header a {
+    text-decoration: none;
+    color: white;
+    margin-left: 15px;
+}
+.adresa{
+    color: #ea2041;
+}
+.underline{
+    text-decoration: underline;
+    text-decoration-line: solid;
+    text-decoration-color: #ea2041;
+    text-decoration-thickness: 3px;
+}
+
+.tabelica {
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .tabelica:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  }
+  img {
+    transition: box-shadow 0.3s ease-in-out;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  img:hover {
+    box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.4);
+  }
+.jezici, .predavaci{
+    transition: box-shadow 0.3s ease-in-out;
+    box-shadow: 3px 3px 10px gray;
+}
+#skola{
+    font-size: 70px;
+}
+
+  
